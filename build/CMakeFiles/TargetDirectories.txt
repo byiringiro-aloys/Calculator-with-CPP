@@ -1,0 +1,5 @@
+/home/aloys/Documents/C++/Calculator/build/CMakeFiles/calculator.dir
+/home/aloys/Documents/C++/Calculator/build/CMakeFiles/edit_cache.dir
+/home/aloys/Documents/C++/Calculator/build/CMakeFiles/rebuild_cache.dir
+/home/aloys/Documents/C++/Calculator/build/CMakeFiles/calculator_autogen_timestamp_deps.dir
+/home/aloys/Documents/C++/Calculator/build/CMakeFiles/calculator_autogen.dir
