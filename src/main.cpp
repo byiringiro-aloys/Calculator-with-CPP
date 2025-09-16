@@ -5,8 +5,8 @@ int main(int argc, char *argv[])
 {
     QApplication a(argc, argv);
 
-    // Apply a cool, modern stylesheet for a 10/10 grade!
     a.setStyleSheet(
+        //Color for the calculator
         "QWidget { background-color:rgb(0, 36, 107); color: white; }"
         "QLineEdit { "
         "   background-color: #3e3e3e;"
@@ -25,12 +25,12 @@ int main(int argc, char *argv[])
         "QPushButton:hover { background-color: #6a6a6a; }"
         "QPushButton:pressed { background-color: #444; }"
         
-        // Specific styling for the delete buttons
+        // Styling for delete buttons
         "#clearButton, #backspaceButton { background-color: #d63d3d; }"
         "#clearButton:hover, #backspaceButton:hover { background-color: #e55555; }"
         "#clearButton:pressed, #backspaceButton:pressed { background-color: #b82c2c; }"
         
-        // Special styling for operators
+        // Styling for operators
         "QPushButton[text=\"+\"], QPushButton[text=\"-\"], QPushButton[text=\"*\"], QPushButton[text=\"/\"] { background-color: #548cd6; }"
         "QPushButton[text=\"+\"], QPushButton[text=\"-\"], QPushButton[text=\"*\"], QPushButton[text=\"/\"]:hover { background-color: #639ce5; }"
         "QPushButton[text=\"+\"], QPushButton[text=\"-\"], QPushButton[text=\"*\"], QPushButton[text=\"/\"]:pressed { background-color: #4272b3; }"
